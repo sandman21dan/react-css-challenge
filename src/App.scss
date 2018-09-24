@@ -1,0 +1,13 @@
+.app {
+
+  @media (min-width: 764px) {
+    &__layout {
+      display: flex;
+      flex-direction: row-reverse;
+
+      & > *:last-child {
+        width: 8rem;
+      }
+    }
+  }
+}

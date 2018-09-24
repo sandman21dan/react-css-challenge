@@ -23,8 +23,10 @@ export class App extends React.Component<IProps> {
     return (
       <div className="app">
         <AppBar />
-        <Content />
-        <SideBar />
+        <div className="app__layout">
+          <Content />
+          <SideBar />
+        </div>
       </div>
     );
   }
