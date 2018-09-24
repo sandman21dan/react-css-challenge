@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when no data 1`] = `
+<p>
+  Loading...
+</p>
+`;
+
+exports[`renders correctly when there is data 1`] = `
+<p>
+  Got initial data
+</p>
+`;
