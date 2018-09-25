@@ -1,0 +1,20 @@
+.close-btn {
+  cursor: pointer;
+  background-color: grey;
+  width: 1rem;
+  padding: .3rem;
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 12px;
+  color: white;
+  font-family: sans-serif;
+  border: 2px solid white;
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.46);
+  transition: transform .2s, box-shadow .2s;
+
+  &:hover {
+    box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.46);
+    transform: translate(-2px, -2px);
+  }
+}
