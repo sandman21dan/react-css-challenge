@@ -14,7 +14,7 @@
   }
 
   &__btn {
-    $bgColour: #919cf5;
+    $bgColour: #6270d8;
     background-color: $bgColour;
     border-radius: 5px;
     color: white;
@@ -24,6 +24,16 @@
 
     &:hover {
       background-color: darken($bgColour, 15%);
+    }
+
+    &--delete {
+      $bgColour: #dd4d4d;
+      background-color: $bgColour;
+      border: 3px solid $bgColour;
+
+      &:hover {
+        background-color: darken($bgColour, 15%);
+      }
     }
   }
 }
