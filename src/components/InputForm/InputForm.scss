@@ -1,0 +1,29 @@
+.input-form {
+  display: flex;
+  flex-direction: column;
+
+  & > * + * {
+    margin-top: 1rem;
+  }
+
+  &__input {
+    border: 2px solid #cacaca;
+    height: 2rem;
+    font-size: 20px;
+    border-radius: 2px;
+  }
+
+  &__btn {
+    $bgColour: #919cf5;
+    background-color: $bgColour;
+    border-radius: 5px;
+    color: white;
+    height: 2rem;
+    font-size: 16px;
+    border: 3px solid $bgColour;
+
+    &:hover {
+      background-color: darken($bgColour, 15%);
+    }
+  }
+}
