@@ -43,12 +43,12 @@
   }
 }
 
-@for $i from 1 through 8 {
+@for $i from 2 through 8 {
   .card:nth-child(#{$i})::before {
-    background-image: url('https://picsum.photos/320/24#{$i}/?random');
+    background-image: url('https://picsum.photos/320/240/?random&r#{$i}');
 
     @media (min-width: 764px) {
-      background-image: url('https://picsum.photos/720/36#{$i}/?random');
+      background-image: url('https://picsum.photos/720/360/?random&r#{$i}');
     }
   }
 }
