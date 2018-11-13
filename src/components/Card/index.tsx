@@ -9,6 +9,9 @@ const Card: React.StatelessComponent = () => (
     <div className="card__close">
       <CloseButton />
     </div>
+    <div className="card__content">
+      <button className="card__button">Open</button>
+    </div>
   </div>
 );
 
